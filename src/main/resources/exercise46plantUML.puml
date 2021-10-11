@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class exercise46
+class animal{
+amount
+name
+}
+
+exercise46 <|-- animal
+exercise46 <|-- exercise46_input.txt
+animal <|--
+
+
+
+@enduml
